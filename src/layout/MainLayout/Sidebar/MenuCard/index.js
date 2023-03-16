@@ -90,6 +90,7 @@ const MenuCard = () => {
                 <List sx={{ p: 0, m: 0 }}>
                     <ListItem alignItems="flex-start" disableGutters sx={{ p: 0 }}>
                         <ListItemAvatar sx={{ mt: 0 }}>
+                            dasdas
                             <Avatar
                                 variant="rounded"
                                 sx={{
@@ -105,15 +106,6 @@ const MenuCard = () => {
                                 <TableChartOutlinedIcon fontSize="inherit" />
                             </Avatar>
                         </ListItemAvatar>
-                        <ListItemText
-                            sx={{ mt: 0 }}
-                            primary={
-                                <Typography variant="subtitle1" sx={{ color: theme.palette.primary[800] }}>
-                                    Get Extra Space
-                                </Typography>
-                            }
-                            secondary={<Typography variant="caption"> 28/23 GB</Typography>}
-                        />
                     </ListItem>
                 </List>
                 <LinearProgressWithLabel value={80} />

@@ -1,12 +1,15 @@
 import dashboard from './dashboard';
-import pages from './pages';
-import utilities from './utilities';
 import other from './other';
+import csi from './csi';
+import scripts from './scripts';
+import sections from './sections';
+import interaction from './Interaction';
+import rouming from './Rouming';
 
 // ==============================|| MENU ITEMS ||============================== //
 
 const menuItems = {
-    items: [dashboard, pages, utilities, other]
+    items: [dashboard, csi, scripts, sections, interaction, rouming, other]
 };
 
 export default menuItems;

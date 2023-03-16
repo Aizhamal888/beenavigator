@@ -1,9 +1,11 @@
+//Earning card/карта покрытия
+
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 
 // material-ui
 import { styled, useTheme } from '@mui/material/styles';
-import { Avatar, Box, Grid, Menu, MenuItem, Typography } from '@mui/material';
+import { Avatar, Box, Button, Grid, Menu, MenuItem, Typography } from '@mui/material';
 
 // project imports
 import MainCard from 'ui-component/cards/MainCard';
@@ -93,7 +95,7 @@ const EarningCard = ({ isLoading }) => {
                                         </Avatar>
                                     </Grid>
                                     <Grid item>
-                                        <Avatar
+                                        {/*<Avatar
                                             variant="rounded"
                                             sx={{
                                                 ...theme.typography.commonAvatar,
@@ -107,8 +109,8 @@ const EarningCard = ({ isLoading }) => {
                                             onClick={handleClick}
                                         >
                                             <MoreHorizIcon fontSize="inherit" />
-                                        </Avatar>
-                                        <Menu
+                                        </Avatar>*/}
+                                        {/*<Menu
                                             id="menu-earning-card"
                                             anchorEl={anchorEl}
                                             keepMounted
@@ -136,7 +138,7 @@ const EarningCard = ({ isLoading }) => {
                                             <MenuItem onClick={handleClose}>
                                                 <ArchiveTwoToneIcon sx={{ mr: 1.75 }} /> Archive File
                                             </MenuItem>
-                                        </Menu>
+                                        </Menu>*/}
                                     </Grid>
                                 </Grid>
                             </Grid>
@@ -169,7 +171,7 @@ const EarningCard = ({ isLoading }) => {
                                         color: theme.palette.secondary[200]
                                     }}
                                 >
-                                    Total Earning
+                                    Информация по покрытиям интернета
                                 </Typography>
                             </Grid>
                         </Grid>

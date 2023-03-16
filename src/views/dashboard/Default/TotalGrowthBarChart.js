@@ -116,7 +116,7 @@ const EarningCard = ({ isLoading }) => {
                                             onClose={handleClose}
                                             variant="selectedMenu"
                                             anchorOrigin={{
-                                                vertical: 'bottom',
+                                                vertical: 'center',
                                                 horizontal: 'right'
                                             }}
                                             transformOrigin={{
@@ -124,9 +124,6 @@ const EarningCard = ({ isLoading }) => {
                                                 horizontal: 'right'
                                             }}
                                         >
-                                            <MenuItem onClick={handleClose}>
-                                                <GetAppTwoToneIcon sx={{ mr: 1.75 }} /> Import Card
-                                            </MenuItem>
                                             <MenuItem onClick={handleClose}>
                                                 <FileCopyTwoToneIcon sx={{ mr: 1.75 }} /> Copy Data
                                             </MenuItem>
@@ -144,7 +141,7 @@ const EarningCard = ({ isLoading }) => {
                                 <Grid container alignItems="center">
                                     <Grid item>
                                         <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>
-                                            Проверка категорий номеров
+                                            Категории номеров
                                         </Typography>
                                     </Grid>
                                     <Grid item>
@@ -165,7 +162,7 @@ const EarningCard = ({ isLoading }) => {
                                 <Typography
                                     sx={{
                                         fontSize: '1rem',
-                                        fontWeight: 500,
+                                        fontWeight: 200,
                                         color: theme.palette.secondary[200]
                                     }}
                                 >
